@@ -140,7 +140,11 @@ export PATH=/opt/homebrew/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
 
 
+# In iterm2 set "Send ^H Backspace" as option+delete
+# In Keyboard Maestro set hotkey control+delete to action option+delete
 bindkey '^H' backward-kill-word
+
+# Use zoxide instead of cd
 eval "$(zoxide init zsh)"
 alias cd='z'
 
