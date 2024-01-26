@@ -26,6 +26,7 @@ xnoremap <leader>p "_dP
 
 "inoremap <C-V><Ctrl-Backspace> <C-w>
 
-
+" In iterm2 set "Send ^H Backspace" as option+delete
+" In Keyboard Maestro set hotkey control+delete to action option+delete
 inoremap <C-H> <C-w>
 
